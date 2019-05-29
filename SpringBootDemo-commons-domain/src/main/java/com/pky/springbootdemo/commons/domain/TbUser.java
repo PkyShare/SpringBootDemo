@@ -1,30 +1,31 @@
 package com.pky.springbootdemo.commons.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.pky.springbootdemo.commons.dto.AbstractBaseDomain;
+import lombok.Data;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 
 @Table(name = "tb_user")
+@Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class TbUser {
-    /**
-     * 编号
-     */
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class TbUser extends AbstractBaseDomain {
 
     /**
      * 医生姓名
      */
+    @NotNull(message = "用户名不可为空")
     private String username;
 
     /**
      * 密码
      */
+    @NotNull(message = "密码不可为空")
     private String password;
 
     /**
@@ -46,24 +47,6 @@ public class TbUser {
      * 备注
      */
     private String remarks;
-
-    /**
-     * 获取编号
-     *
-     * @return id - 编号
-     */
-    public Long getId() {
-        return id;
-    }
-
-    /**
-     * 设置编号
-     *
-     * @param id 编号
-     */
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     /**
      * 获取医生姓名
