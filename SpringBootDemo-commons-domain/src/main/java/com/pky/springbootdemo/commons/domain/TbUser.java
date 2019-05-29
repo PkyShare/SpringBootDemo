@@ -1,11 +1,14 @@
 package com.pky.springbootdemo.commons.domain;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Table(name = "tb_user")
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class TbUser {
     /**
      * 编号
