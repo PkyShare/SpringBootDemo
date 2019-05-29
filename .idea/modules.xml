@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBootDemo.iml" filepath="$PROJECT_DIR$/.idea/SpringBootDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDemo-commons/SpringBootDemo-commons.iml" filepath="$PROJECT_DIR$/SpringBootDemo-commons/SpringBootDemo-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDemo-commons-domain/SpringBootDemo-commons-domain.iml" filepath="$PROJECT_DIR$/SpringBootDemo-commons-domain/SpringBootDemo-commons-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDemo-commons-mapper/SpringBootDemo-commons-mapper.iml" filepath="$PROJECT_DIR$/SpringBootDemo-commons-mapper/SpringBootDemo-commons-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDemo-commons-service/SpringBootDemo-commons-service.iml" filepath="$PROJECT_DIR$/SpringBootDemo-commons-service/SpringBootDemo-commons-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDemo-database/SpringBootDemo-database.iml" filepath="$PROJECT_DIR$/SpringBootDemo-database/SpringBootDemo-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDemo-dependencies/SpringBootDemo-dependencies.iml" filepath="$PROJECT_DIR$/SpringBootDemo-dependencies/SpringBootDemo-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDemo-web-admin/SpringBootDemo-web-admin.iml" filepath="$PROJECT_DIR$/SpringBootDemo-web-admin/SpringBootDemo-web-admin.iml" />
+    </modules>
+  </component>
+</project>
